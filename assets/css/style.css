@@ -346,7 +346,7 @@ color: var(--grey0);
 .carousel-inner{
  
 
-       background-image: url('../img/home/_DL.jpg');
+       background-image: url('assets/img/home/_DL.jpg');
     /* Set background attachment to fixed for the parallax effect */
   background-attachment: fixed;
   /* Adjust other styling as needed */
