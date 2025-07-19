@@ -1,1 +1,283 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Whitaker - Roofing</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="assets/lib/animate/animate.min.css" rel="stylesheet">
+        <link href="assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="assets/css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div id="spinner" class="show position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid bg-dark py-2 d-none d-md-flex">
+            <div class="container">
+                <div class="d-flex justify-content-between topbar">
+                   
+                    <div class="top-link">
+                         <a href="" class="text-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+  <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z"/>
+  <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z"/>
+</svg></a>
+                        <a href=""  class="text-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-rocket" viewBox="0 0 16 16">
+  <path d="M8 8c.828 0 1.5-.895 1.5-2S8.828 4 8 4s-1.5.895-1.5 2S7.172 8 8 8"/>
+  <path d="M11.953 8.81c-.195-3.388-.968-5.507-1.777-6.819C9.707 1.233 9.23.751 8.857.454a3.5 3.5 0 0 0-.463-.315A2 2 0 0 0 8.25.064.55.55 0 0 0 8 0a.55.55 0 0 0-.266.073 2 2 0 0 0-.142.08 4 4 0 0 0-.459.33c-.37.308-.844.803-1.31 1.57-.805 1.322-1.577 3.433-1.774 6.756l-1.497 1.826-.004.005A2.5 2.5 0 0 0 2 12.202V15.5a.5.5 0 0 0 .9.3l1.125-1.5c.166-.222.42-.4.752-.57.214-.108.414-.192.625-.281l.198-.084c.7.428 1.55.635 2.4.635s1.7-.207 2.4-.635q.1.044.196.083c.213.09.413.174.627.282.332.17.586.348.752.57l1.125 1.5a.5.5 0 0 0 .9-.3v-3.298a2.5 2.5 0 0 0-.548-1.562zM12 10.445v.055c0 .866-.284 1.585-.75 2.14.146.064.292.13.425.199.39.197.8.46 1.1.86L13 14v-1.798a1.5 1.5 0 0 0-.327-.935zM4.75 12.64C4.284 12.085 4 11.366 4 10.5v-.054l-.673.82a1.5 1.5 0 0 0-.327.936V14l.225-.3c.3-.4.71-.664 1.1-.861.133-.068.279-.135.425-.199M8.009 1.073q.096.06.226.163c.284.226.683.621 1.09 1.28C10.137 3.836 11 6.237 11 10.5c0 .858-.374 1.48-.943 1.893C9.517 12.786 8.781 13 8 13s-1.517-.214-2.057-.607C5.373 11.979 5 11.358 5 10.5c0-4.182.86-6.586 1.677-7.928.409-.67.81-1.082 1.096-1.32q.136-.113.236-.18Z"/>
+  <path d="M9.479 14.361c-.48.093-.98.139-1.479.139s-.999-.046-1.479-.139L7.6 15.8a.5.5 0 0 0 .8 0z"/>
+</svg></a>
+                        
+                    </div>
+                     <div class="top-info">
+                        <small class="me-3 text-secondary"><a href="#" class="text-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+</svg></a> (678) 327-8225</small>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+        <!-- Logo Start -->
+     
+        <div id="logoBar" class="container-fluid logo-bar text-center mx-auto">
+              
+              <div class="row"><div class="col-2">1</div><div class="col-8"><a class="ve_no_url" href="https://whitakerrestoration.com" title="Whitaker &amp; Restoration" rel="home"><img src="assets/img/LOGO.png" class="img-fluid"></a></div><div class="col-2">   <button type="button" class="navbar-toggler me-0 d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarLight" aria-controls="offcanvasNavbarLight"> 
+                        <span class="navbar-toggler-icon"></span>
+                    </button></div></div>  
+              
+             
+      
+            </div>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbarLight" aria-labelledby="offcanvasNavbarLightLabel">
+        <div class="offcanvas-header">
+         
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+        
+
+             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                
+                    
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+         
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                Services
+              </a>
+              <ul class="dropdown-menu show">
+                <li><a class="dropdown-item" href="roofing.html">Roofing</a></li>
+                <li><a class="dropdown-item" href="gutters.html">Gutters</a></li>
+                <li><a class="dropdown-item" href="insurance.html">Insurance Claim Assistance</a></li>
+            <li><a class="dropdown-item" href="siding.html">Siding</a></li>
+              <li><a class="dropdown-item" href="paint.html">Paint</a></li>
+              <li><a class="dropdown-item" href="deks.html">Deks</a></li>
+              </ul>
+            </li>
+               <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+                           <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+                <li class="nav-item">
+              <a class="nav-link" href="#">Testimonials</a>
+            </li> 
+                <li class="nav-item">
+              <a class="nav-link" href="#">Service Area</a>
+            </li> 
+               <li class="nav-item">
+              <a class="nav-link" href="#">Referrals</a>
+            </li>            
+               <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>  
+
+
+          </ul>
+
+
+        </div>
+        </div>
+        </div>
+        <!-- Logo End -->
+        <!-- Navbar Start -->
+        <header class="container-fluid bg-primary d-none d-lg-block" id="navbar">
+            <div class="container">
+                <nav class="navbar navbar-dark navbar-expand-lg py-0">
+                
+                   
+                       <button type="button" class="navbar-toggler me-0" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarLight" aria-controls="offcanvasNavbarLight"> 
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+       <!--              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbarLight" aria-labelledby="offcanvasNavbarLightLabel">
+        <div class="offcanvas-header">
+         
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+        
+
+             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                
+                    
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+         
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                Services
+              </a>
+              <ul class="dropdown-menu show">
+                <li><a class="dropdown-item" href="roofing.html">Roofing</a></li>
+                <li><a class="dropdown-item" href="gutters.html">Gutters</a></li>
+                <li><a class="dropdown-item" href="insurance.html">Insurance Claim Assistance</a></li>
+           <li><a class="dropdown-item" href="siding.html">Siding</a></li>
+               <li><a class="dropdown-item" href="paint.html">Paint</a></li>
+               <li><a class="dropdown-item" href="deks.html">Deks</a></li>
+              </ul>
+            </li>
+               <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+                           <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+                <li class="nav-item">
+              <a class="nav-link" href="#">Testimonials</a>
+            </li> 
+                <li class="nav-item">
+              <a class="nav-link" href="#">Service Area</a>
+            </li> 
+               <li class="nav-item">
+              <a class="nav-link" href="#">Referrals</a>
+            </li>            
+               <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>  
+
+
+          </ul>
+
+
+        </div>
+        </div> -->
+                    <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto mx-xl-auto p-0">
+                            <a href="index.html" class="nav-item nav-link active text-secondary">HOME</a>
+                                       <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">SERVICES</a>
+                                <div class="dropdown-menu rounded">
+                                    <a href="roofing.html" class="dropdown-item">ROOFING</a>
+                                    <a href="gutters.html" class="dropdown-item">GUTTERS</a>
+                                    <a href="repairs.html" class="dropdown-item">REPAIRS</a>
+                                    <a href="insurance.html" class="dropdown-item">INSURANCE CLAIM ASSISTANCE</a>
+                                     <a href="siding.html" class="dropdown-item">SIDING</a>
+ 		<a href="paint.html" class="dropdown-item">PAINT</a> 
+		<a href="deks.html" class="dropdown-item">DEKS</a>
+                                </div>
+                            </div>
+                            <a href="gallery.html" class="nav-item nav-link">GALLERY</a>
+                            <a href="products.html" class="nav-item nav-link">PRODUCTS</a>
+                            <a href="testimonials.html" class="nav-item nav-link">TESTIMONIALS</a>
+
+                            <a href="service-area.html" class="nav-item nav-link">SERVICE AREA</a>
+                             <a href="refferals.html" class="nav-item nav-link">REFERRALS</a>
+                              <a href="contact.html" class="nav-item nav-link">CONTACT</a>
+                        </div>
+                    </div>
+                
+                </nav>
+            </div>
+        </header>
+        <!-- Navbar End -->
+<!--Review Start -->
+
+                <section class="container-fluid review mb-5">
+            <div class="container">
+                <div class="row">
+                        
+                       
+                        <h1 class="mb-1 mt-4 text-white">Leave home repairs to the pros</h1>
+                        <h2  class="mb-1 mt-1 text-white"></h2>
+                        
+                         <p  class="mb-1 text-white">Don't let leaky gutters continue to wreak havoc on your home. Turn to Whitaker Restoration for gutter repair services. We can repair or replace your old gutters to help prevent serious structural damage.<br><br></p>                           
+                       <p  class="mb-4 text-white">Call now to schedule fast, reliable gutter replacement services. We'll be happy to answer any questions</p>
+                    
+
+                
+                </div>
+     </div>
+                </section>     
+
+  
+
+
+
+      <!-- Footer Start -->
+         <footer class="container-fluid footer bg-dark" >
+ 
+          
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start">
+                       <small class="text-light fs-10"> Copyright © 2025 Whitaker & Restoration, all rights reserved.<br/>
+Braselton, GA 30517   (678) 327-8225</small>
+                        <!-- <span class="text-light"><a href="#" class="text-secondary"><i class="fas fa-copyright text-secondary me-2"></i>Whitaker Restorations</a>, All right reserved.</span> -->
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                       
+                        
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End -->
+
+
+      
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/lib/wow/wow.min.js"></script>
+        <script src="assets/lib/easing/easing.min.js"></script>
+        <script src="assets/lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="assets/js/main.js"></script>
+        <script type="text/javascript">
+
+</script>
+    </body>
+
+</html>
