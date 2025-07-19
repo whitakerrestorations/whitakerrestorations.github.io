@@ -1,444 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html data-bs-theme="light" lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <title>Whitaker - Roofing</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="" name="keywords">
-        <meta content="" name="description">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Cobra - Roofing</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Saira:wght@500;600;700&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/bss-overrides.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/lib/animate/animate.min.css">
+    <link rel="stylesheet" href="assets/css/lib/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/css/style.css">
+    <link rel="stylesheet" href="assets/css/Features-Minimal-icons.css">
+    <link rel="stylesheet" href="assets/css/Lightbox-Gallery-baguetteBox.min.css">
+</head>
 
-        <!-- Google Web Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap" rel="stylesheet"> 
-
-        <!-- Icon Font Stylesheet -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-
-        <!-- Libraries Stylesheet -->
-        <link href="assets/lib/animate/animate.min.css" rel="stylesheet">
-        <link href="assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
-        <!-- Customized Bootstrap Stylesheet -->
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-
-        <!-- Template Stylesheet -->
-        <link href="assets/css/style.css" rel="stylesheet">
-    </head>
-
-    <body>
-        <!-- Spinner Start -->
-        <div id="spinner" class="show position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-grow text-primary" role="status"></div>
+<body>
+    <div class="position-fixed top-50 start-50 d-flex translate-middle w-100 vh-100 justify-content-center align-items-center show" id="spinner">
+        <div class="text-primary spinner-grow" role="status"></div>
+    </div>
+    <div class="container-fluid bg-dark d-none d-md-flex py-2">
+        <div class="container">
+            <div class="d-flex justify-content-between topbar">
+                <div class="top-link"><a href="" class="text-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewbox="0 0 16 16"><path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z"></path><path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z"></path></svg></a><a href="" class="text-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-rocket" viewbox="0 0 16 16"><path d="M8 8c.828 0 1.5-.895 1.5-2S8.828 4 8 4s-1.5.895-1.5 2S7.172 8 8 8"></path><path d="M11.953 8.81c-.195-3.388-.968-5.507-1.777-6.819C9.707 1.233 9.23.751 8.857.454a3.5 3.5 0 0 0-.463-.315A2 2 0 0 0 8.25.064.55.55 0 0 0 8 0a.55.55 0 0 0-.266.073 2 2 0 0 0-.142.08 4 4 0 0 0-.459.33c-.37.308-.844.803-1.31 1.57-.805 1.322-1.577 3.433-1.774 6.756l-1.497 1.826-.004.005A2.5 2.5 0 0 0 2 12.202V15.5a.5.5 0 0 0 .9.3l1.125-1.5c.166-.222.42-.4.752-.57.214-.108.414-.192.625-.281l.198-.084c.7.428 1.55.635 2.4.635s1.7-.207 2.4-.635q.1.044.196.083c.213.09.413.174.627.282.332.17.586.348.752.57l1.125 1.5a.5.5 0 0 0 .9-.3v-3.298a2.5 2.5 0 0 0-.548-1.562zM12 10.445v.055c0 .866-.284 1.585-.75 2.14.146.064.292.13.425.199.39.197.8.46 1.1.86L13 14v-1.798a1.5 1.5 0 0 0-.327-.935zM4.75 12.64C4.284 12.085 4 11.366 4 10.5v-.054l-.673.82a1.5 1.5 0 0 0-.327.936V14l.225-.3c.3-.4.71-.664 1.1-.861.133-.068.279-.135.425-.199M8.009 1.073q.096.06.226.163c.284.226.683.621 1.09 1.28C10.137 3.836 11 6.237 11 10.5c0 .858-.374 1.48-.943 1.893C9.517 12.786 8.781 13 8 13s-1.517-.214-2.057-.607C5.373 11.979 5 11.358 5 10.5c0-4.182.86-6.586 1.677-7.928.409-.67.81-1.082 1.096-1.32q.136-.113.236-.18Z"></path><path d="M9.479 14.361c-.48.093-.98.139-1.479.139s-.999-.046-1.479-.139L7.6 15.8a.5.5 0 0 0 .8 0z"></path></svg></a></div>
+                <div class="top-info"><small class="text-secondary me-3"><a href="#" class="text-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewbox="0 0 16 16"><path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"></path></svg></a> (404) 801-7451</small></div>
+            </div>
         </div>
-        <!-- Spinner End -->
-
-        <!-- Topbar Start -->
-        <div class="container-fluid bg-dark py-2 d-none d-md-flex">
-            <div class="container">
-                <div class="d-flex justify-content-between topbar">
-                   
-                    <div class="top-link">
-                         <a href="" class="text-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
-  <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z"/>
-  <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z"/>
-</svg></a>
-                        <a href=""  class="text-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-rocket" viewBox="0 0 16 16">
-  <path d="M8 8c.828 0 1.5-.895 1.5-2S8.828 4 8 4s-1.5.895-1.5 2S7.172 8 8 8"/>
-  <path d="M11.953 8.81c-.195-3.388-.968-5.507-1.777-6.819C9.707 1.233 9.23.751 8.857.454a3.5 3.5 0 0 0-.463-.315A2 2 0 0 0 8.25.064.55.55 0 0 0 8 0a.55.55 0 0 0-.266.073 2 2 0 0 0-.142.08 4 4 0 0 0-.459.33c-.37.308-.844.803-1.31 1.57-.805 1.322-1.577 3.433-1.774 6.756l-1.497 1.826-.004.005A2.5 2.5 0 0 0 2 12.202V15.5a.5.5 0 0 0 .9.3l1.125-1.5c.166-.222.42-.4.752-.57.214-.108.414-.192.625-.281l.198-.084c.7.428 1.55.635 2.4.635s1.7-.207 2.4-.635q.1.044.196.083c.213.09.413.174.627.282.332.17.586.348.752.57l1.125 1.5a.5.5 0 0 0 .9-.3v-3.298a2.5 2.5 0 0 0-.548-1.562zM12 10.445v.055c0 .866-.284 1.585-.75 2.14.146.064.292.13.425.199.39.197.8.46 1.1.86L13 14v-1.798a1.5 1.5 0 0 0-.327-.935zM4.75 12.64C4.284 12.085 4 11.366 4 10.5v-.054l-.673.82a1.5 1.5 0 0 0-.327.936V14l.225-.3c.3-.4.71-.664 1.1-.861.133-.068.279-.135.425-.199M8.009 1.073q.096.06.226.163c.284.226.683.621 1.09 1.28C10.137 3.836 11 6.237 11 10.5c0 .858-.374 1.48-.943 1.893C9.517 12.786 8.781 13 8 13s-1.517-.214-2.057-.607C5.373 11.979 5 11.358 5 10.5c0-4.182.86-6.586 1.677-7.928.409-.67.81-1.082 1.096-1.32q.136-.113.236-.18Z"/>
-  <path d="M9.479 14.361c-.48.093-.98.139-1.479.139s-.999-.046-1.479-.139L7.6 15.8a.5.5 0 0 0 .8 0z"/>
-</svg></a>
-                        
+    </div>
+    <div class="container-fluid text-center mx-auto logo-bar" id="logoBar">
+        <div class="container">
+            <div class="row"><a class="ve_no_url" href="https://cobraroofingandrestoration.com" title="Cobra Roofing &amp; Restoration" rel="home"><img src="assets/img/img/LOGO.png" class="img-fluid"></a></div>
+        </div>
+    </div>
+    <header class="bg-primary container-fluid" id="navbar">
+        <div class="container">
+            <nav class="py-0 navbar navbar-dark navbar-expand-lg"><button class="navbar-toggler me-0" data-bs-toggle="collapse" type="button" data-bs-target="#navbarCollapse"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
+                    <div class="p-0 ms-auto mx-xl-auto navbar-nav"><a class="nav-item nav-link active text-secondary" href="index.html">HOME</a>
+                        <div class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">SERVICES</a>
+                            <div class="rounded dropdown-menu"><a class="dropdown-item" href="blog.html">ROOFING</a><a class="dropdown-item" href="team.html">GUTTERS</a><a class="dropdown-item" href="testimonial.html">REPAIRS</a><a class="dropdown-item" href="404.html">INSURANCE CLAIM ASSISTANCE</a></div>
+                        </div><a class="nav-item nav-link" href="gallery.html">GALLERY</a><a class="nav-item nav-link" href="products.html">PRODUCTS</a><a class="nav-item nav-link" href="testimonials.html">TESTIMONIALS</a><a class="nav-item nav-link" href="service-area.html">SERVICE AREA</a><a class="nav-item nav-link" href="refferals.html">REFFERALS</a><a class="nav-item nav-link" href="contact.html">CONTACT</a>
                     </div>
-                     <div class="top-info">
-                        <small class="me-3 text-secondary"><a href="#" class="text-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
-</svg></a> (678) 327-8225</small>
-
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="mb-5 container-fluid review">
+        <div class="container">
+            <div class="row"><h1 class="mb-1 mt-4 text-white">We are so grateful to have you as a repeat customer</h1><h4 class="mb-1 mt-2 text-white ">Would you be willing to refer us to friends or family? Fill out the form below so we can help them too!</h4><p class="mb-1 text-white "><br></p></div>
+        </div>
+    </section>
+    <section class="position-relative py-4 py-xl-7">
+        <div class="container position-relative">
+            <div class="row">
+                <div class="col col-lg-2"></div>
+                <div class="col-md-6 col-lg-7" style="flex:0 0 auto;width:606px;">
+                    <div>
+                        <form class="p-3 p-xl-4" method="post" action="https://api.web3forms.com/submit"><input type="hidden" name="access_key" value="d07c8dcc-4f13-4bb4-8b27-4047c8660f51"><input type="hidden" name="redirect" value="https://inspirontechnologies.com/how-to-contact?result=1">
+                            <h4 class="text-danger">Referral Form</h4>
+                            <div class="mb-3"><label class="form-label fw-bold text-danger" for="referralfirstname">First Name* (Referral)</label><input class="form-control form-control form-control form-control form-control form-control form-control form-control form-control" type="text" id="referralfirstname" name="referralfirstname" required=""></div>
+                            <div class="mb-3"><label class="form-label fw-bold text-danger" for="referrallastname">Last Name* (Referral)</label><input class="form-control form-control form-control form-control form-control form-control form-control form-control form-control" type="text" id="referrallastname" name="referrallastname" required=""></div>
+                            <div class="mb-3"><label class="form-label fw-bold text-danger" for="referralphone">Phone* (Referral)</label><input class="form-control form-control form-control form-control form-control form-control form-control form-control" type="tel" id="referralphone" name="referralphone" pattern="()^\+?[0-9\s\-]{7,15}$" required=""></div>
+                            <div class="mb-3"><label class="form-label fw-bold text-danger" for="referralemail">Email* (Referral)</label><input class="form-control form-control form-control form-control form-control form-control form-control form-control form-control" type="email" id="referralemail" name="referralemail" required=""></div>
+                            <div class="mb-3"><label class="form-label fw-bold text-danger" for="referredbyfirstname">Your First Name*</label><input class="form-control form-control form-control form-control form-control form-control form-control form-control form-control" type="text" id="referredbyfirstname" name="referredbyfirstname" required=""></div>
+                            <div class="mb-3"><label class="form-label fw-bold text-danger" for="referredbylastname">Your Last Name*</label><input class="form-control form-control form-control form-control form-control form-control form-control form-control form-control" type="text" id="referredbylastname" name="referredbylastname" required=""></div>
+                            <div class="mb-3"><label class="form-label fw-bold text-danger" for="referredbyemail">Your Email*</label><input class="form-control form-control form-control form-control form-control form-control form-control form-control form-control" type="email" id="referredbyemail" name="referredbyemail" required=""></div>
+                            <div class="mb-3"><button class="btn btn-primary rounded-5" type="submit" required="">SUBMIT </button></div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Topbar End -->
-        <!-- Logo Start -->
-     
-        <div id="logoBar" class="container-fluid logo-bar text-center mx-auto">
-              
-              <div class="row"><div class="col-2">1</div><div class="col-8"><a class="ve_no_url" href="https://whitakerrestoration.com" title="Whitaker &amp; Restoration" rel="home"><img src="assets/img/LOGO.png" class="img-fluid"></a></div><div class="col-2">   <button type="button" class="navbar-toggler me-0 d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarLight" aria-controls="offcanvasNavbarLight"> 
-                        <span class="navbar-toggler-icon"></span>
-                    </button></div></div>  
-              
-             
-      
-            </div>
-                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbarLight" aria-labelledby="offcanvasNavbarLightLabel">
-        <div class="offcanvas-header">
-         
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </section>
+    <footer class="bg-dark container-fluid footer">
+        <div class="row">
+            <div class="col-md-6 text-center text-md-start"><small class="text-light fs-10"> Copyright © 2025 Cobra Roofing &amp; Restoration, all rights reserved.<br>Braselton, GA 30517 (404) 801-7451</small></div>
+            <div class="col-md-6 text-center text-md-end"></div>
         </div>
-        <div class="offcanvas-body">
-        
-
-             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                
-                    
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
-            </li>
-         
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
-                Services
-              </a>
-              <ul class="dropdown-menu show">
-                <li><a class="dropdown-item" href="#">Roofing</a></li>
-                <li><a class="dropdown-item" href="#">Gutters</a></li>
-                <li><a class="dropdown-item" href="#">Insurance Claim Assistance</a></li>
-           
-              </ul>
-            </li>
-               <li class="nav-item">
-              <a class="nav-link" href="#">Gallery</a>
-            </li>
-                           <li class="nav-item">
-              <a class="nav-link" href="#">Products</a>
-            </li>
-                <li class="nav-item">
-              <a class="nav-link" href="#">Testimonials</a>
-            </li> 
-                <li class="nav-item">
-              <a class="nav-link" href="#">Service Area</a>
-            </li> 
-               <li class="nav-item">
-              <a class="nav-link" href="#">Referrals</a>
-            </li>            
-               <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>  
-
-
-          </ul>
-
-
-        </div>
-        </div>
-        </div>
-        <!-- Logo End -->
-        <!-- Navbar Start -->
-        <header class="container-fluid bg-primary d-none d-lg-block" id="navbar">
-            <div class="container">
-                <nav class="navbar navbar-dark navbar-expand-lg py-0">
-                
-                   
-                       <button type="button" class="navbar-toggler me-0" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarLight" aria-controls="offcanvasNavbarLight"> 
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-       <!--              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbarLight" aria-labelledby="offcanvasNavbarLightLabel">
-        <div class="offcanvas-header">
-         
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-        
-
-             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                
-                    
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
-            </li>
-         
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
-                Services
-              </a>
-              <ul class="dropdown-menu show">
-                <li><a class="dropdown-item" href="#">Roofing</a></li>
-                <li><a class="dropdown-item" href="#">Gutters</a></li>
-                <li><a class="dropdown-item" href="#">Insurance Claim Assistance</a></li>
-           
-              </ul>
-            </li>
-               <li class="nav-item">
-              <a class="nav-link" href="#">Gallery</a>
-            </li>
-                           <li class="nav-item">
-              <a class="nav-link" href="#">Products</a>
-            </li>
-                <li class="nav-item">
-              <a class="nav-link" href="#">Testimonials</a>
-            </li> 
-                <li class="nav-item">
-              <a class="nav-link" href="#">Service Area</a>
-            </li> 
-               <li class="nav-item">
-              <a class="nav-link" href="#">Referrals</a>
-            </li>            
-               <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>  
-
-
-          </ul>
-
-
-        </div>
-        </div> -->
-                    <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
-                        <div class="navbar-nav ms-auto mx-xl-auto p-0">
-                            <a href="index.html" class="nav-item nav-link active text-secondary">HOME</a>
-                                       <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">SERVICES</a>
-                                <div class="dropdown-menu rounded">
-                                    <a href="blog.html" class="dropdown-item">ROOFING</a>
-                                    <a href="team.html" class="dropdown-item">GUTTERS</a>
-                                    <a href="testimonial.html" class="dropdown-item">REPAIRS</a>
-                                    <a href="404.html" class="dropdown-item">INSURANCE CLAIM ASSISTANCE</a>
-                                </div>
-                            </div>
-                            <a href="gallery.html" class="nav-item nav-link">GALLERY</a>
-                            <a href="products.html" class="nav-item nav-link">PRODUCTS</a>
-                            <a href="testimonials.html" class="nav-item nav-link">TESTIMONIALS</a>
-
-                            <a href="service-area.html" class="nav-item nav-link">SERVICE AREA</a>
-                             <a href="refferals.html" class="nav-item nav-link">REFERRALS</a>
-                              <a href="contact.html" class="nav-item nav-link">CONTACT</a>
-                        </div>
-                    </div>
-                
-                </nav>
-            </div>
-        </header>
-        <!-- Navbar End -->
-
-        <!-- Banner Start -->
-        <section class="container-fluid px-0">
-            <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
-  
-                <div class="carousel-inner" role="listbox">
-                    <div class="carousel-item active">
-                        <!-- <img src="assets/img/home/_DL.jpg" class="img-fluid" alt="First slide"> -->
-                        <div class="carousel-caption">
-                            <div class="container carousel-content">
-                                
-                                <h1 class="text-white display-5 mb-4 animated fadeInRight">HIRE A TRUSTED AND PROFESSIONAL ROOFING COMPANY</h1>
-                                <p class="mb-4 text-white fs-6 animated fadeInDown">Turn to Whitaker Restoration for roof restoration services</p>
-                                <a href="" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Contact Us</button></a>
-                                 <a href="" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Free Property Inspection</button></a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-   
-            </div>
-        </section>
-        <!-- Banner End -->
-
-      <!-- Services Start -->
-        <section class="container-fluid services py-5 mb-5">
-            <div class="container">
-         
-                <div class="row g-5 services-inner">
-                    <div class="col-md-3 col-lg-3">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                 
-                                    <h4 class="mb-3 text-white">Roofing</h4>
-                                    <p class="mb-4">We'll repair or replace your outdated or damaged roof.</p>
-                                   
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-lg-3">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                   
-                                    <h4 class="mb-3 text-white">Gutter</h4>
-                                    <p class="mb-4">Trust us to replace your leaky gutters and downspout.</p>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-lg-3">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                   
-                                    <h4 class="mb-3 text-white">Repairs</h4>
-                                    <p class="mb-4">We can keep your roof and gutters working flawlessly.</p>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-lg-3">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                   
-                                    <h4 class="mb-3 text-white">Insurance
-Claim
-Assistance</h4>
-                                    <p class="mb-4">Our crew specializes in storm damage insurance claim services.</p>
-                                  
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
- 
-                </div>
-            </div>
-        </section>
-        <!-- Services End -->
-
-<!--Review Start -->
-
-                <section class="container-fluid review mb-5">
-            <div class="container">
-                <div class="row g-5">
-                        
-                       
-                        <h1 class="mb-1 mt-4 text-white text-center">Trust Your Local Roofing Experts</h1>
-                        <h2  class="mb-1 mt-2 text-white text-center">Rely on our roofing company to repair or replace your damaged roof</h2>
-                        
-                         <p  class="mb-4 text-white text-center">It's important to address roofing issues ASAP. Otherwise, your interior could pay the price. Fortunately, Whitaker &amp; Restoration provides reliable roofing and gutter services for clients in Braselton, GA. Whether you need your roof replaced or your gutters repaired, our experienced crew can do the job. You can rely on us to handle all of your residential and commercial roofing needs. 
-         <br><br>If your roof suffered storm damage, we could help you file a claim and make the necessary repairs. Call now to schedule roof or gutter replacement services. Our roofers can answer any questions you have.  <br><br></p>
-                           
-                       
-                    
-       <div class="Gbtn"><a href="https://www.google.com/search?q=Whitaker+Roofing+%26+Restoration&amp;rlz=1C1ONGR_enUS1092US1092&amp;oq=Whitaker+Roofing+%26+Restoration&amp;gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgcIARAAGIAEMggIAhAAGBYYHjIGCAMQRRg9MgYIBBBFGD0yBggFEEUYPNIBBzMyMGowajeoAgCwAgA&amp;sourceid=chrome&amp;ie=UTF-8" target="_blank" class="Glink"><h3><span><svg class="svg-inline--fa fa-google fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="google" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512" width="50" height="25" data-fa-i2svg=""><path fill="currentColor" d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"></path></svg><!-- <i class="fab fa-google"></i> --><br> REVIEW US ON GOOGLE</span></h3></a>
-        </div>
-                
-                </div>
-            </div>
-        </section>
-
-
-<!--Review End -->
-
-    <!-- Banner Start -->
-        <section class="container-fluid px-0">
-            <div  class="carousel slide" data-bs-ride="carousel">
-  
-                <div class="carousel-inner carousel-second" role="listbox">
-                    <div class="carousel-item active">
-                        <!-- <img src="assets/img/home/_DL.jpg" class="img-fluid" alt="First slide"> -->
-                        <div class="carousel-caption">
-                            <div class="container carousel-content">
-                                
-                                <h1 class="text-white display-5 mb-4 animated fadeInRight">Don't Let Gutter Problems Go Unresolved</h1>
-                                <p class="mb-4 text-white fs-6 animated fadeInDown">Arrange for gutter repair or replacement services</p>
-                                <a href="" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Contact Us</button></a>
-                               
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-   
-            </div>
-        </section>
-        <!-- Banner End -->
-        <!-- About Start -->
-        <section class="container-fluid py-1 my-1">
-            <div class="container pt-5">
-                <div class="row g-5">
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="h-100 position-relative">
-                            <img src="assets/img/home/Pic1.jpg" class="img-fluid rounded" alt="" style="margin-bottom: 25%;">
-                           
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                       
-                        <h1 class="mb-4 text-secondary">Find out what we can do for you</h1>
-                        
-                            <p>Don't put off your structural repairs and risk severe damage to your home or commercial building. Contact us today to get:  <br></p>
-                            <ul><li>Roof installation services  </li><li>Gutter replacement services  </li><li>Roof repair services  </li><li>Gutter repair services  </li><li>Storm damage insurance claim assistance  </li></ul><br>Our GAF Master Elite Certified roofing contractors can help you decide on the right shingles and then install your new roof in a timely manner. Contact us today to arrange for roof installation services.<p></p>
-                           
-                       
-                    </div>
-                </div>
-            </div>
-        </section>
-
-  <!-- About End -->
-
-
-                <section class="container-fluid">
-            <div class="container">
-                <div class="row g-5">
-                        <div class="col-lg-6 col-md-6 col-sm-12">
-                       
-                        <h1 class="mb-4 text-secondary">5 reasons to choose our roofing company</h1>
-                        
-                         <p>When it comes to partnering with a roofing company, you can't go wrong with ours. Whitaker &amp; Restoration offers a wide range of roofing and guttering services. You should make us your go-to roofing team because:  <br></p><ul><li>We're locally owned and operated  </li><li>We have over 10 years of experience  </li><li>We're fully licensed, insured and accredited  </li><li>We specialize in storm damage insurance claim assistance  </li><li>We offer free roof inspections  </li></ul><br>Reach out now to get started on your roof replacement. We can replace your asphalt shingle or rolled roof materials quickly.<p></p>  
-                           
-                       
-                    </div>  
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="h-100 position-relative">
-                            <img src="assets/img/home/Pic2.jpg" class="img-fluid rounded" alt="" style="margin-bottom: 25%;">
-                           
-                        </div>
-                    </div>
-                
-                </div>
-            </div>
-        </section>
-      
-
-
-
-
-
-  
-
-
-
-        <!-- Footer Start -->
-         <footer class="container-fluid footer bg-dark" >
- 
-          
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start">
-                       <small class="text-light fs-10"> Copyright © 2025 Whitaker & Restoration, all rights reserved.<br/>
-Braselton, GA 30517   (678) 327-8225</small>
-                        <!-- <span class="text-light"><a href="#" class="text-secondary"><i class="fas fa-copyright text-secondary me-2"></i>Whitaker Restorations</a>, All right reserved.</span> -->
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
-                       
-                        
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Footer End -->
-
-
-      
-
-        
-        <!-- JavaScript Libraries -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/lib/wow/wow.min.js"></script>
-        <script src="assets/lib/easing/easing.min.js"></script>
-        <script src="assets/lib/owlcarousel/owl.carousel.min.js"></script>
-
-        <!-- Template Javascript -->
-        <script src="assets/js/main.js"></script>
-        <script type="text/javascript">
+    </footer><script type="text/javascript">
 
 </script>
-    </body>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/lib/wow/wow.min.js"></script>
+    <script src="assets/js/lib/easing/easing.min.js"></script>
+    <script src="assets/js/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="assets/js/js/main.js"></script>
+    <script src="assets/js/Lightbox-Gallery-baguetteBox.min.js"></script>
+    <script src="assets/js/Lightbox-Gallery.js"></script>
+</body>
 
 </html>
