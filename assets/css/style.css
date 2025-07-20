@@ -407,7 +407,7 @@ color: var(--grey0);
 .carousel-inner{
  
 
-       background-image: url('../img/home/_DL.jpg');
+       background-image: url('../img/home/DL1.jpg');
     /* Set background attachment to fixed for the parallax effect */
   background-attachment: fixed;
   /* Adjust other styling as needed */
@@ -419,7 +419,7 @@ color: var(--grey0);
 .carousel-second{
  
 
-       background-image: url('../img/home/_DL2.jpg');
+       background-image: url('../img/home/DL2.jpg');
 }
 .carousel-item::after {
     content: "";
