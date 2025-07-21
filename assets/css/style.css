@@ -364,7 +364,7 @@ right: 0 !important;
  color: var(--red);
 
 } 
-.offcanvas .dropdown-item:hover, offcanvas .dropdown-item:focus {
+.offcanvas .dropdown-item:hover, .offcanvas .dropdown-item:focus {
  background-color: transparent;
   color: var(--red) !important;
 }
