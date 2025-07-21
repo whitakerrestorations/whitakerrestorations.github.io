@@ -364,7 +364,7 @@ right: 0 !important;
  color: var(--red);
 
 } 
-.dropdown-item:hover, .dropdown-item:focus {
+.offcanvas .dropdown-item:hover, offcanvas .dropdown-item:focus {
  background-color: transparent;
   color: var(--red) !important;
 }
@@ -400,7 +400,7 @@ color: var(--grey0);
 
 .carousel-item {
     position: relative;
-     padding: 300px;
+     padding: 300px 50x;
  /* text-align: center;
   color: #ffffff; */
 }
