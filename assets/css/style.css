@@ -780,3 +780,13 @@ padding: .2rem !important;
    --grey0: #a3a2a1;
    --yellow:#d4af37;
 }
+
+    .custom-family-img {
+      width: 70%;        /* Resize image to 50% of container width */
+      max-width: 500px;  /* Optional: Limit maximum size */
+      height: auto;
+    }
+    .phone-number a {
+    color: white;
+    text-decoration: none;
+    }
