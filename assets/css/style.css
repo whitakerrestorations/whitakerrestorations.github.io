@@ -793,3 +793,8 @@ padding: .2rem !important;
     color: white;
     text-decoration: none;
     }
+@media (max-width: 768px) {
+  .responsive-bg {
+    height: 60vh; /* Reduce height on smaller screens if needed */
+  }
+}
