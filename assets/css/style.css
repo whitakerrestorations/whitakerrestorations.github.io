@@ -548,9 +548,30 @@ color: var(--grey0);
     border-radius: 25px;
     padding: 10px 0;
     position: relative;
-    background: url('../img/home/F1.jpg');
+    /*background: url('../img/home/F1.jpg');*/
      background-size: cover;
     color: #fff;
+}
+.services-item1 {
+    background: url('../img/home/F1.jpg');
+}
+.services-item2 {
+    background: url('../img/home/F2.jpg');
+}
+.services-item3 {
+    background: url('../img/home/F3.jpg');
+}
+.services-item4 {
+    background: url('../img/home/F4.jpg');
+}
+.services-item5 {
+    background: url('../img/home/siding.jpg');
+}
+.services-item6 {
+    background: url('../img/home/paint.jpg');
+}
+.services-item7 {
+    background: url('../img/home/deks.jpg');
 }
 .services .services-item:hover {
 
