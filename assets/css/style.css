@@ -92,7 +92,7 @@
   50% {transform:scale(1);}
   100% {transform:scale(1.5);}
 } 
-.navbar-toggler  span {
+.navbar-toggler .navbar-toggler-icon {
 	position: relative;
 	margin-top: 9px;
 	margin-bottom: 9px;
@@ -107,7 +107,7 @@
 	margin-top: -1px;
 }
 
-.navbar-toggler span, .navbar-toggler span::before, .navbar-toggler span::after {
+.navbar-toggler .navbar-toggler-icon, .navbar-toggler .navbar-toggler-icon::before, .navbar-toggler .navbar-toggler-icon::after {
 	display: block;
 	width: 26px;
 	right: 0;
@@ -123,19 +123,19 @@
 	-o-transition-duration: 0.3s;
 	transition-duration: 0.3s;
 }
-.navbar-toggler  span::before, 
-.navbar-toggler  span::after {
+.navbar-toggler  .navbar-toggler-icon::before, 
+.navbar-toggler  .navbar-toggler-icon::after {
 	position: absolute;
 	content: "";
 }
-.navbar-toggler  span::before {
+.navbar-toggler .navbar-toggler-icon::before {
 	top: -9px;
 	width:20px
 }
-.navbar-toggler  span::after {
+.navbar-toggler .navbar-toggler-icon::after {
 	top: 9px;width: 33px;
 }
-.navbar-toggler  span:hover {
+.navbar-toggler .navbar-toggler-icon:hover {
 	cursor: pointer;
 }
 
@@ -204,8 +204,11 @@
 		-webkit-backface-visibility: hidden !important;
 		backface-visibility: hidden !important;
 	}
-	.offcanvas a {
+	.navbar .dropdown-menu a, .offcanvas a {
 		position: relative;
+		display: table-caption;
+		width: fit-content;
+		white-space: nowrap;
 	}
 	.navbar a::before, .offcanvas a:before {
 		content: "";
@@ -400,4 +403,3 @@ padding: .2rem !important;
 	--grey0: #a3a2a1;
 	--yellow:#d4af37;
 }
-
