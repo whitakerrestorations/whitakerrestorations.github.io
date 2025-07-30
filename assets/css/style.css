@@ -11,8 +11,17 @@
 	z-index: 99999;
 }
 /*** Spinner End ***/
+.bg-none {
+    background: none !important;
+}
+.z-5 {
+	z-index: 9999;
+}
 .rounded-5 {
     border-radius: 25px;
+}
+.opacity-1 {
+    opacity: 1 !important;
 }
 .opacity-50 {
     opacity: 0.5 !important;
@@ -78,6 +87,9 @@
 }
 /*** Button End ***/
 
+#contactSmallModal {
+    top: auto;
+}
 
 /*** Topbar Start ***/
 @keyframes mymove {
@@ -144,6 +156,7 @@
 		max-height: 7rem !important;
 	}
 }
+
 @media (max-width: 992px){
 	#logoBar img {
 		max-height: 5rem !important;
@@ -346,29 +359,38 @@ Gbtn span,
 .fa-google {
 	font-size: 140% !important;
 }
+.floatingbtn-container {
+    margin-right: 9rem;
+}
 @media(min-width: 851px){
-.Gbtn h3 span {
-display:flex !important;
-justify-content: center !important;
-align-items: center !important;
-flex-direction: row !important;
-}
-.Gbtn h3 br {
-display: none !important;
-}
+    .Gbtn h3 span {
+    display:flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: row !important;
+    }
+    .Gbtn h3 br {
+    display: none !important;
+    }
 }
 @media (max-width: 850px){
-.tsD_gmb .fa-google {
-margin-bottom: 1rem !important;
+	.tsD_gmb .fa-google {
+	margin-bottom: 1rem !important;
+	}
 }
+@media (max-width: 768px){
+    .floatingbtn-container {
+        left: 0;
+        margin: 0;
+    }
 }
 @media (max-width: 550px){
-.Gbtn h3{
-font-size: 1.4rem !important;
-}
-.Gbtn {
-padding: .2rem !important;
-}
+	.Gbtn h3{
+		font-size: 1.4rem !important;
+	}
+	.Gbtn {
+		padding: .2rem !important;
+	}
 }
 /*--end--*/
 /*** Review End ***/
@@ -404,11 +426,14 @@ padding: .2rem !important;
 	--yellow:#d4af37;
 }
 
-a[x-apple-data-detectors] {
-    color: inherit !important;
-    text-decoration: none !important;
-    font-size: inherit !important;
-    font-family: inherit !important;
-    font-weight: inherit !important;
-    line-height: inherit !important;
+a[href^="tel"] {
+  color: inherit; /* Inherit text color of parent element. */
+  text-decoration: none; /* Remove underline. */
+  /* Additional css `propery: value;` pairs here */
 }
+#message {
+      font-size: 1.5rem;
+      color: #32CD32;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
