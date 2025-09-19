@@ -78,7 +78,7 @@
 	transition: .9s;
 }
 .logo-bar{
-    background: url(../img/home/snake-skin-darker.jpg) repeat center / 1400px auto;
+    /*background: url(../img/home/snake-skin-darker.jpg) repeat center / 1400px auto;*/
 }
 /*** Button Start ***/
 .btn {
@@ -437,3 +437,4 @@ a[href^="tel"] {
       margin-top: 10px;
       margin-bottom: 10px;
     }
+
