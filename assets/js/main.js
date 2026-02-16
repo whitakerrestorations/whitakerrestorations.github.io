@@ -19,7 +19,7 @@
 			//myModal.show();
 			$('.btn-contactSM_btn', document).trigger('click');
 		}
-    }, 5000); // 10000 milliseconds = 5 seconds
+    }, 5000*60*60); // 10000 milliseconds = 5 seconds * 60*60
     
     // Initiate the wowjs
     new WOW().init();
